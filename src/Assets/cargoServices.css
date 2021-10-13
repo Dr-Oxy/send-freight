@@ -91,7 +91,7 @@ fieldset input {
   outline: none;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 430px) {
   .cargo-services {
     padding: 20px;
   }

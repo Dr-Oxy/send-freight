@@ -111,6 +111,12 @@
   font-size: 16px;
 }
 
+@media screen and (max-width: 400px) {
+  .import-export {
+    padding: 20px;
+  }
+}
+
 @media screen and (max-width: 997px) {
   .import-export .top-option {
     grid-template-columns: 1fr;
@@ -133,11 +139,11 @@
   }
 }
 
-@media screen and (max-width: 330px) {
+/* @media screen and (max-width: 330px) {
   .import-export .top-option .locat-dir {
     max-width: 240px;
   }
-}
+} */
 
 @media screen and (min-width: 1000px) and (max-width: 1199px) {
   .import-export .top-option {

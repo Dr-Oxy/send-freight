@@ -13,7 +13,7 @@
 .select-service {
   background-color: white;
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.1);
-  padding: 40px;
+  padding: 20px;
   border-radius: 5px;
 }
 
@@ -47,6 +47,12 @@
 .fa-plane {
   color: white;
   transform: rotate(-90deg);
+}
+
+@media screen and (min-width: 400px) {
+  .select-service {
+    padding: 40px;
+  }
 }
 
 @media screen and (min-width: 1000px) {
