@@ -44,10 +44,10 @@ const ImportExport = () => {
 
         <div className="locat-from">
           <div className="locat-dir d-flex-ac">
-            <div className="d-flex-ac">
+            <div className="group-icon d-flex-ac">
               <svg
                 width="20"
-                height="20"
+                height="16"
                 viewBox="0 0 24 24"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
@@ -81,10 +81,10 @@ const ImportExport = () => {
 
         <div className="locat-to">
           <div className="locat-dir d-flex-ac">
-            <div className="d-flex-ac">
+            <div className="group-icon d-flex-ac">
               <svg
                 width="20"
-                height="20"
+                height="16"
                 viewBox="0 0 24 24"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
@@ -122,7 +122,7 @@ const ImportExport = () => {
           <div className="bottom-input d-flex-ac">
             <svg
               width="20"
-              height="20"
+              height="16"
               viewBox="0 0 24 24"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
