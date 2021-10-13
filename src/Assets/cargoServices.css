@@ -1,0 +1,148 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* special classes */
+.d-flex-ac {
+  display: flex;
+  align-items: center;
+}
+
+.cargo-services {
+  margin: 20px 0;
+  background-color: white;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.1);
+  padding: 40px;
+}
+
+.cargo-services .title {
+  display: flex;
+  align-items: center;
+}
+
+.cargo-services .title .heading {
+  margin-right: auto;
+}
+
+.cargo-services .title .group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.group-text {
+  margin-left: 15px;
+}
+
+.cargo-services .slide-btn {
+  margin-top: 30px;
+  margin-bottom: 40px;
+  background: #f1f2f6;
+  color: #b4b4b4;
+  padding: 3px;
+  width: fit-content;
+}
+
+.cargo-services .slide-btn button {
+  background: none;
+  color: #b4b4b4;
+  width: 200px;
+  padding: 10px 20px;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+  font-size: 16px;
+}
+
+.cargo-services .slide-btn button.active {
+  background: white;
+  color: #0a43a3;
+  padding: 10px 20px;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+  font-size: 16px;
+}
+
+.fieldset-wrap {
+  display: flex;
+  align-items: center;
+}
+
+fieldset {
+  width: fit-content;
+  padding: 5px 30px 5px 10px;
+  position: relative;
+  color: #81868c;
+  margin-right: 30px;
+}
+
+fieldset label {
+  position: absolute;
+  right: 10px;
+  bottom: 6px;
+}
+
+fieldset input {
+  background: transparent;
+  border: none;
+  outline: none;
+}
+
+@media screen and (max-width: 400px) {
+  .cargo-services .slide-btn {
+    padding: 3px;
+    display: flex;
+    margin: 30px auto 40px auto;
+  }
+
+  .cargo-services .slide-btn button {
+    width: 140px;
+    padding: unset;
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 401px) and (max-width: 600px) {
+  .cargo-services .slide-btn {
+    padding: 3px;
+    width: fit-content;
+    display: flex;
+  }
+
+  .cargo-services .slide-btn button {
+    width: 180px;
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .cargo-services .title {
+    display: unset;
+    text-align: center;
+  }
+
+  .cargo-services .title .group {
+    margin-top: 15px;
+  }
+
+  .cargo-services .title .group-text {
+    font-size: 16px;
+    text-align: left;
+  }
+
+  .fieldset-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  fieldset {
+    margin-right: unset;
+    margin: 10px auto;
+  }
+}
