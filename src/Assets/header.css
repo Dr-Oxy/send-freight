@@ -44,7 +44,7 @@ header .search {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px;
+  padding: 10px 20px;
   margin-left: 5px;
   margin: 15px 0;
   border-radius: 5px;
