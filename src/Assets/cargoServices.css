@@ -92,6 +92,10 @@ fieldset input {
 }
 
 @media screen and (max-width: 400px) {
+  .cargo-services {
+    padding: 20px;
+  }
+
   .cargo-services .slide-btn {
     padding: 3px;
     display: flex;
