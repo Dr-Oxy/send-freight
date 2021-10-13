@@ -33,6 +33,7 @@
   position: relative;
   overflow: hidden;
   transition: 0;
+  cursor: pointer;
 }
 
 .service-option .trans:hover {
