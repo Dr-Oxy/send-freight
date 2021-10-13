@@ -9,6 +9,7 @@
   background-color: white;
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.1);
   padding: 40px;
+  border-radius: 5px;
 }
 
 .additional-services .add-options {
@@ -29,7 +30,7 @@
 }
 
 .additional-services .text p.lead {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 500;
   margin-bottom: 6px;
 }

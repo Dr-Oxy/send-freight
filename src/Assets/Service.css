@@ -6,7 +6,7 @@
 
 .d-flex {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   align-items: center;
 }
 
@@ -26,9 +26,19 @@
 
 .service-option .trans {
   height: 100px;
-  border: 1px #81868c solid;
+  border: 1px #b3b4b6 solid;
   color: #81868c;
   padding-left: 20px;
+  border-radius: 4px;
+  position: relative;
+  overflow: hidden;
+  transition: 0;
+}
+
+.service-option .trans:hover {
+  background: #0746a7;
+  color: white;
+  transition: all 0.3s ease;
 }
 
 .service-option .trans:first-child {
@@ -38,10 +48,18 @@
 
 .fa-plane,
 .fa-truck,
-.fa-ship,
+.fa-ship {
+  font-size: 65px;
+  position: absolute;
+  bottom: -0.7rem;
+  right: -0.7rem;
+}
+
 .fa-user {
-  font-size: 60px;
-  align-self: flex-end;
+  font-size: 80px;
+  position: absolute;
+  bottom: -0.7rem;
+  right: -1.5rem;
 }
 
 .fa-plane {

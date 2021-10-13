@@ -35,7 +35,7 @@ input[type="checkbox"] {
 }
 
 input:checked + .switch {
-  background: #0a43a3;
+  background: #0746a7;
 }
 
 input:checked + .switch:after {
