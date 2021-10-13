@@ -39,7 +39,7 @@
 }
 
 .import-export .top-option button {
-  padding: 10px;
+  padding: 10px 15px;
   border: 1px #e9e9e9 solid;
   color: #9e9d9d;
   outline: none;
@@ -163,6 +163,10 @@
 
 @media screen and (min-width: 1000px) and (max-width: 1199px) {
   .import-export .top-option {
-    gap: 40px;
+    gap: 10px;
+  }
+
+  .import-export .top-option button {
+    padding: 10px;
   }
 }
